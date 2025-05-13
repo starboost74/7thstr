@@ -1,0 +1,35 @@
+* { /* Universal Selector */
+  margin: 10;
+  padding: 10;
+}
+
+h1 {
+    color:blueviolet;
+    font-size: 40px;
+}
+
+body{
+    font-size: 12px;
+}
+
+p {
+  font-size: 20px;
+}
+
+p1 {
+  font-size: 20px;
+}
+/* ID Selector */
+#specific {
+  color: red;
+}
+
+/* Class selector */
+.specific2 {
+ color: purple;
+}
+
+/* Descendant Selector  */
+nav a {
+  color: white;
+}
