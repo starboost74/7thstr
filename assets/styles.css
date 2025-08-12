@@ -1,0 +1,95 @@
+/* Text */
+body {
+  background-image: url("images/bg.jpeg");
+  background-color: black; 
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400; 
+  color: white;
+  margin:0;
+  font-size:16px;
+
+  transition: opacity 1.5s ease-in;
+}
+body.loaded {
+  opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: 700;
+}
+
+.one {
+  padding:30px;
+}
+
+/* Navbar 1*/
+.navbar {
+  display: flex;
+  justify-content: center; 
+  background: transparent; 
+}
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 200px;
+  }
+
+  .navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.1s ease;
+    font-size: 20px;
+  }
+
+  .navbar li a:hover {
+    color: gray;
+  }
+
+/* Navbar 2 */
+.navbar2 {
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  background: transparent; 
+  border-bottom: 1px solid #fff; 
+}
+
+  .navbar2 ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex; 
+    gap: 600px;
+    align-items: stretch;
+  }
+
+  .navbar2 li {
+    display: flex; 
+    align-items: center; 
+  }
+
+  .navbar2 li:first-child {
+    border-right: 1px solid #fff; 
+  }
+
+  .navbar2 li:last-child {
+    border-left: 1px solid #fff; 
+  }
+
+  .navbar2 li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.1s ease;
+  }
+
+  .navbar2 li a:hover {
+    color: gray;
+  }
